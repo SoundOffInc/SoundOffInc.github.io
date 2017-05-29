@@ -170,11 +170,16 @@ header .header-content {
   padding: 100px 15px 100px;
   width: 100%;
 }
-header .header-content .header-content-inner h1 {
+header .header-content .header-content-inner h1.detail {
   font-weight: 700;
-  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
+}
+span.name{
+  color: #656565;
+}
+span.name2{
+  color: #f47142
 }
 
 header .header-content .header-content-inner hr {
