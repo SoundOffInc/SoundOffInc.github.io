@@ -45,10 +45,15 @@ p {
 .bg-primary {
   background-color: #f47142;
 }
-.bg-dark {
-
-  background-color: #222222;
+.bg-secondary {
   color: white;
+  background-image: url('../img/bg-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-dark {
+  background-color: #222222;
+  color: #f47142;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
